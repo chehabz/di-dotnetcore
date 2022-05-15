@@ -7,6 +7,11 @@ public class PersonService : IPersonService
         _personRepository = personRepository;
     }
 
+    public IList<Person> GetList()
+    {
+        return _personRepository.Collection;
+    }
+
     public Person GetPerson(string? name = null)
     {
       return _personRepository.Collection.First();

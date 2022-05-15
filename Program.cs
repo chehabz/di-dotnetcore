@@ -18,8 +18,11 @@ using (IServiceScope serviceScope = host.Services.CreateScope()){
     IServiceProvider provider = serviceScope.ServiceProvider;
     IPersonService personService = provider.GetRequiredService<IPersonService>();
 
-    var person = personService.GetPerson();
-    Console.WriteLine($"Hello {person.Name}");
+   
+    foreach (var it in personService.GetList())
+    {
+        Console.WriteLine(it.ToString());
+    }
 }
 
 
