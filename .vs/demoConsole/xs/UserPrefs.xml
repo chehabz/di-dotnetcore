@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{B730B34C-8CF5-41A9-80F0-D1DFE90706F7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="PersonRepository.cs" Line="2" Column="14" />
+      <File FileName="IPersonService.cs" Line="1" Column="1" />
+      <File FileName="Person.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="5" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="demoConsole" expanded="True">
+            <Node name="demoConsole" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.demoConsole PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
