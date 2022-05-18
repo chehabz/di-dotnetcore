@@ -7,6 +7,14 @@ public class PersonService : IPersonService
         _personRepository = personRepository;
     }
 
+    public void Create(Person person)
+    {
+        if(person is null)
+            throw new ArgumentNullException($"{nameof(person)} cannot be null");
+
+        _personRepository.Collection.Add(person);
+    }
+
     public IList<Person> GetList()
     {
         return _personRepository.Collection;

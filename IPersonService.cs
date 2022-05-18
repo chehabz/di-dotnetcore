@@ -10,4 +10,9 @@ public interface  IPersonService {
     /// Get a list of person Entity
     /// <summary>
     IList<Person> GetList();
+
+    /// <summary>
+    /// Creates a new person entity
+    /// <summary>
+    void Create(Person person);
 }
